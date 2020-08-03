@@ -1,0 +1,20 @@
+//global variables
+//gotta find a sleek looking font
+$body-font-family: 'Open Sans',Verdana,serif;
+$text-color: black !important;
+
+@mixin skillChip {
+    padding: 0 1.5vw 0 1.5vw;
+    margin: 1vh 0.8vw 0 0.8vw;
+}
+
+.v-input--selection-controls {
+    margin-top: 0px;
+    padding-top: 0px;
+    .theme--light.v-input {
+        color: $text-color;
+    }
+}
+.v-card__text {
+    padding: 1.2vw;
+}
